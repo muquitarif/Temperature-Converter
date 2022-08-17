@@ -21,10 +21,12 @@ light.addEventListener("click", function () {
 // TEMPERATURE CONVERTER
 celsius.addEventListener("input", function () {
     let tempCelsius = this.value;
-    farenheit.value = tempCelsius * 9 / 5 + 32;
+    let result = tempCelsius * 9 / 5 + 32;
+    farenheit.value = `${result}° F`
 });
 
 farenheit.addEventListener("input", function () {
     let tempFarenheit = this.value;
-    celsius.value = (tempFarenheit - 32) * 5 / 9;
+    let result = (tempFarenheit - 32) * 5 / 9;
+    celsius.value = `${result}° C`;
 });
