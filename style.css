@@ -83,3 +83,11 @@ a:hover {
         font-size: 20px;
     }
 }
+
+@media screen and (max-width: 300px) {
+
+    #Celsius,
+    #Fahrenheit {
+        font-size: 10px;
+    }
+}
