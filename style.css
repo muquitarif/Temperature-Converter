@@ -57,6 +57,7 @@ li {
 #light {
     font-size: 12px;
     font-family: Poppins;
+    border-radius: 5px;
 }
 
 footer {
