@@ -9,6 +9,10 @@ https://temperature-converter-orcin.vercel.app/
 - CSS3
 - JAVASCRIPT
 
+## Features
+- Light & Dark Theme
+- Temperature Conversion
+
 ## Screenshots
 #### Desktop Site View
 ![image](https://user-images.githubusercontent.com/76789333/185244426-ab33ba56-326a-4565-9c23-ae44ee8afd35.png)
